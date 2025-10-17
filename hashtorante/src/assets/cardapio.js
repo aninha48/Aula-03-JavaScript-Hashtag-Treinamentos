@@ -1,3 +1,15 @@
+/*Neste documento faremos a declaração de cada objeto e para isso precisamos:
+
+  1º: importar as imagens de cada
+
+  2º: criar cada objeto
+
+  3º: criar um array que organize os itens de acordo com a sua categoria;
+
+
+
+*/
+
 import enroladinhoMignonImg from "./pratos/enroladinho-mignon.jpeg";
 import casal20Img from "./pratos/casal-20.jpeg";
 import burguerPicanhaImg from "./pratos/burguer-picanha.jpeg";
@@ -122,3 +134,6 @@ export const pratosPrincipais = [
 export const sobremesas = [brownie, cocadaForno, petitGateau];
 
 export const bebidas = [aguaSemGas, aguaComGas, cocaCola, guarana, heineken];
+
+
+// se estamos exportando as arrays é porque vamos importar em algum lugar
