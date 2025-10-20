@@ -14,3 +14,7 @@ No componente Card descrevi o processo de Desestruturação e a metodologia BEM
 No Banner vemos como importar recursos em pastas diferentes
 
 Em cardapio.js vamos criar um db para todos os itens do site
+
+Em Cards você verá como criar um array para automatizar o cardápio de acordo com a quantidade de produtos no DB
+
+Em categorias vamos ver como podemos alterar o valor de uma variável let em React

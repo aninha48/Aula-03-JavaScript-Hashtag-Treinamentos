@@ -1,10 +1,9 @@
 import Card from './Card'
 import {pratosPrincipais, sobremesas, bebidas} from "../assets/cardapio"
 
-
-const Cards = () => {
+const Cards = ({numCategoriaSelecionada, setNumCategoriaSelecionada}) => {
     const itensCategoria = [pratosPrincipais, sobremesas, bebidas];
-    const categoriaSelecionada = itensCategoria[0];
+    const categoriaSelecionada = itensCategoria[numCategoriaSelecionada];
 // a partir do DB que criamos em cardapio.js podemos criar uma função que percorra a array e assim criamos apenas um modelo que será repetido quantas vezes existirem objetos
 
 {/*
